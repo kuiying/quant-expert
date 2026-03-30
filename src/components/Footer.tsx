@@ -13,10 +13,10 @@ export default function Footer() {
           </div>
           
           <div className="flex space-x-8">
-            <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">
+            <a href="https://www.mql5.com/en/users/1033341469/blog" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-400 hover:text-white transition-colors">
               Strategy Docs
             </a>
-            <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">
+            <a href="https://www.mql5.com/en/users/1033341469/seller#!category=1" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-400 hover:text-white transition-colors">
               MQL5 Market
             </a>
             <a href="#" className="text-sm text-slate-400 hover:text-white transition-colors">

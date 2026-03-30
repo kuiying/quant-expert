@@ -35,7 +35,7 @@ export default function TrustSignals() {
             <div className="relative z-10 bg-slate-900/40 border border-slate-800 rounded-2xl p-6 backdrop-blur-sm">
               <div className="flex justify-between items-center mb-6">
                 <div>
-                  <h3 className="text-xl font-bold text-white">Quant Expert Yield Curve</h3>
+                  <h3 className="text-xl font-bold text-white">Quant Pro + Turtle Multi</h3>
                   <p className="text-sm text-slate-500">Live Account Performance (USD)</p>
                 </div>
                 <div className="text-right">
@@ -64,6 +64,17 @@ export default function TrustSignals() {
                   </AreaChart>
                 </ResponsiveContainer>
               </div>
+              
+              <div className="mt-6 flex justify-center">
+                <a
+                  href="https://www.myfxbook.com/portfolio/quant-pro--turtle-multi/11978778"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-8 py-3 text-sm font-bold text-black bg-[#f59e0b] border-2 border-black rounded hover:bg-[#d97706] transition-colors"
+                >
+                  MyFxBook - CLICK HERE
+                </a>
+              </div>
             </div>
           </motion.div>
 
@@ -76,7 +87,7 @@ export default function TrustSignals() {
           >
             <div className="inline-flex items-center space-x-2 bg-slate-900/80 border border-slate-800 rounded-full px-4 py-2 mb-6">
               <Award className="h-5 w-5 text-blue-400" />
-              <span className="text-sm font-medium text-slate-300">Top 1% Strategy on MQL5 Official Market</span>
+              <span className="text-sm font-medium text-slate-300">5 stars strategy on MQL5 Official Market</span>
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">
@@ -100,14 +111,14 @@ export default function TrustSignals() {
                   <span className="text-xs text-slate-500">2 days ago</span>
                 </div>
                 <p className="text-slate-300 text-sm italic mb-4">
-                  "This is the most stable EA I've ever used. During NFP releases, its risk control perfectly avoids violent fluctuations, while accurately capturing profits when trends are clear."
+                  "I purchased this EA based on rigorous testing performed using dedicated tools (not just MetaTrader backtests). The results are very promising; the system appears solid and non-manipulative. The developer is very friendly and helpful. I'll update the review as soon as I have real results."
                 </p>
                 <div className="flex items-center">
                   <div className="h-8 w-8 rounded-full bg-slate-800 flex items-center justify-center text-xs font-bold text-slate-400 mr-3">
-                    AL
+                    GM
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-white">Alex L.</p>
+                    <p className="text-sm font-medium text-white">GiovanniMonceri57</p>
                     <p className="text-xs text-slate-500">Professional Trader · Licensed User</p>
                   </div>
                 </div>

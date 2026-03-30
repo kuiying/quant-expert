@@ -46,7 +46,7 @@ export default function Hero() {
           className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
           <a
-            href="#pricing"
+            href="#products"
             className="group relative inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_40px_rgba(37,99,235,0.4)]"
           >
             <span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-black"></span>
@@ -61,27 +61,6 @@ export default function Hero() {
           >
             Explore Flagship Strategies
           </a>
-        </motion.div>
-
-        {/* Trust Indicators */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.6 }}
-          className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-slate-800/50 pt-10"
-        >
-          {[
-            { label: "Millisecond Execution", value: "< 5ms", icon: Zap },
-            { label: "Max Drawdown", value: "4.2%", icon: ShieldCheck },
-            { label: "Annualized Return", value: "42.8%", icon: Activity },
-            { label: "Active Live Accounts", value: "8,500+", icon: Activity },
-          ].map((stat, i) => (
-            <div key={i} className="flex flex-col items-center">
-              <stat.icon className="h-6 w-6 text-slate-500 mb-3" />
-              <span className="text-3xl font-mono font-bold text-slate-200">{stat.value}</span>
-              <span className="text-sm text-slate-500 mt-1 uppercase tracking-wider">{stat.label}</span>
-            </div>
-          ))}
         </motion.div>
       </div>
     </section>

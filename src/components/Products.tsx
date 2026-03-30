@@ -16,6 +16,7 @@ export default function Products() {
       ],
       image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=2070",
       cta: "Get Turtle Pro",
+      link: "https://www.mql5.com/en/market/product/168850?source=Site+Profile+Seller",
       highlight: false,
     },
     {
@@ -31,6 +32,7 @@ export default function Products() {
       ],
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=2034",
       cta: "Upgrade to Quant Expert",
+      link: "https://www.mql5.com/en/market/product/166498?source=Site+Profile+Seller",
       highlight: true,
     },
   ];
@@ -85,11 +87,6 @@ export default function Products() {
                   {product.description}
                 </p>
 
-                <div className="mb-8">
-                  <span className="text-4xl font-mono font-bold text-white">{product.price}</span>
-                  <span className="text-slate-500 ml-2">/ licensed account</span>
-                </div>
-
                 <ul className="space-y-4 mb-10 flex-grow">
                   {product.features.map((feature, i) => (
                     <li key={i} className="flex items-center text-slate-300">
@@ -100,7 +97,9 @@ export default function Products() {
                 </ul>
 
                 <a
-                  href="#pricing"
+                  href={product.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`w-full py-4 rounded-lg font-medium text-center transition-all ${
                     product.highlight
                       ? "bg-gradient-to-r from-blue-600 to-blue-800 text-white hover:shadow-[0_0_20px_rgba(37,99,235,0.3)]"
